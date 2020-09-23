@@ -1,5 +1,4 @@
 const express = require('express');
-const usuario = require('../models/usuario');
 const app = express();
 const Usuario = require('../models/usuario');
 

@@ -9,6 +9,8 @@
 
 
 endpoint POST: http://localhost:3000/registrar
+
+
 endpoint GET: http://localhost:3000/listar
 
 base de datos MongoDB

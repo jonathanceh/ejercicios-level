@@ -10,11 +10,6 @@ app.use(bodyparser.json())
 
 app.use(require('./routes/routes'));
 
-// mongoose.set('useNewUrlParser', true);
-// mongoose.set('useUnifiedTopology', true);
-// mongoose.set('useCreateIndex', true);
-
-
 mongoose.connect('mongodb://localhost:27017/fitDB', { useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true, }, (err, res) => {
     if (err) throw err;
 
