@@ -1,6 +1,6 @@
 # Ejercicios de perfilamiento:
 
-Backend con Node JS.
+# Backend con Node JS.
 
 * endpoint POST: http://localhost:3000/registrar
 
